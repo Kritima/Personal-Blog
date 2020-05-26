@@ -17,21 +17,6 @@ body {
     margin-right: auto;
   }
 
-  .carousel {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: #333;
-}
-
-.carousel .item {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
   /* styles for the nav bar containing the links */
 nav {
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -89,7 +74,7 @@ nav li a {
   
   /* Fake image */
   .fakeimg {
-    background-color: #aaa;
+    background-color: #ecc1ae;
     width: 100%;
     padding: 20px;
   }
@@ -107,45 +92,165 @@ nav li a {
     display: table;
     clear: both;
   }
+
+  .carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.carousel .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
   
   /* Footer */
-  .footer {
-    padding: 20px;
+  footer {
+    font-size: 0.7em;
     text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
-
-
-  @media only screen and (min-width: 688px) {
-    /* styles specifies horizontal dispay for navigation links */
-    nav li {
-      display: block;
-      float: left;
-      width: 18%;
-      margin-left: 1%;
-      margin-right: 1%;
-      padding-left: 0;
-      padding-right: 0;
-      white-space: nowrap;
-      border-radius: 0;
-      background-color: transparent;
-    }
-  
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn { 
-      width: 100%;
-      padding: 0;
-    }
-  }
-
-    @media screen and (max-width: 500px) {
-      nav a {
-        float: none;
-        display: block;
-        width: 100%;
-      }
+    background-color: #ecc1ae;;
+    margin-top: 2em;
+    color: #ffffff;
+    margin-top: -0.2em;
+    padding: 2em;
   }
 
   body, html {
@@ -183,68 +288,3 @@ nav li a {
   text-align: center;
   cursor: pointer;
 }
-
-/* Media Query for desktop view port */
-@media only screen and (min-width: 999px) {
-  /* styles for container id */
-  #container {
-    background-color: #1d1d1c;
-  }
-
-  /* styles for header */
-  header {
-    text-align: left;
-  }
-
-  /* styles for nav */
-  nav {
-    float: right;
-    margin-top: -7em;
-    margin-right: 3em;
-    margin-bottom: 0;
-    width: 65%;
-  }
-
-  /* styles for ul in nav for links */
-  nav ul {
-    margin: 0;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-  }
-
-  /* styles for the list items in nav */
-  nav li {
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    width: 20%;
-  }
-
-  /* styles for anchor tag inside nav li */
-  nav li a {
-    display: inline-block;
-    padding: 0.7em;
-    text-shadow: 0.2em 0.1em #3d3d35;
-  }
-
-  /* styles for pseudo-classes */
-  /* when the link is not visited */
-  nav li a:link {
-    color: #ffffff;
-  }
-
-  /* when the link is visited */
-  nav li a:visited {
-    color: #ccccff;
-  }
-
-  /* pseudo class when hoverin over link */
-  nav li a:hover {
-    font-style: italic;
-    color: #9d9d93;
-  }
-
-  /* when the links are active */
-  nav li a:active {
-    color: #6600cc;
-  }
