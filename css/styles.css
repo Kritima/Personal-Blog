@@ -3,6 +3,10 @@ body {
     background: #f1f1f1;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   header {
     text-align: center;
   }
@@ -11,14 +15,6 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  /* Header/Blog Title */
-  .header {
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    background: white;
   }
 
   /* styles for the nav bar containing the links */
@@ -38,7 +34,7 @@ nav ul {
 
 /* styles for the li in nav */
 nav li {
-  background-color: #555;
+  background-color:#ecc1ae;
   border-radius: 2em;
   margin: 0.3em;
   padding: 0.4em;
