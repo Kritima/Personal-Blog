@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Blog</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/content.css"/>
 </head>
 <body>
 
@@ -35,11 +36,11 @@
               <!-- main content of the website -->
       <main>
         <h2>Ready to get started? Contact us today.</h2>
-        <p>
+        <address>
           We are located at: <br />
           72 Finch Avenue East <br />
           Toronto, ON M2N4R3
-        </p>
+        </address>
 
         <p>Phone Number</p>
 
@@ -56,6 +57,21 @@
             >kritimakukreja5@gmail.com</a
           >
         </p>
+
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+        </form>
+
       </main>
 
      <!-- footer of the webpage -->
