@@ -266,7 +266,7 @@ footer {
     float: right;
     margin-top: -7em;
     margin-bottom: 0;
-    width: 70%;
+    width: 65%;
   }
 
   /* styles for ul in nav for links */
@@ -278,6 +278,7 @@ footer {
 
     /* styles for the list items in nav */
     nav li {
+      background-color:transparent;
       margin-left: 0;
       margin-right: 0;
       padding: 0;
