@@ -8,11 +8,13 @@ body {
   }
 
   /* styles to have fluid images */
-  
+
   img {
     max-width: 100%;
   }
 
+  /* styles for the id = container */
+  
   #container {
     width: 100%;
     margin-left: auto;
