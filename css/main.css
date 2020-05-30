@@ -209,7 +209,7 @@ nav li a {
 footer {
   font-size: 0.7em;
   text-align: center;
-  background-color: #ecc1ae;;
+  background-color: #ecc1ae;
   margin-top: 2em;
   color: #ffffff;
   margin-top: -0.2em;
@@ -232,9 +232,27 @@ footer {
     padding-right: 0;
     white-space: nowrap;
     border-radius: 0;
-    background-color: transparent;
+    background-color:#ecc1ae;
   }
+
+  /* styles for mobile class */
+  .mobile {
+    display: none;
+  }
+
+  /* styles for desktop */
+  .desktop {
+    display: inline;
+  }
+
+  /* styles for the tablet class */
+  .tablet {
+    display: block;
+    margin-bottom: -1em;
+  }
+
 }
+
 
 @media screen and (max-width: 600px) {
 
