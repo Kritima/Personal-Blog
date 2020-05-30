@@ -260,7 +260,17 @@ footer {
     header {
       text-align: left;
     }
-    
+
+    /* styles for nav */
+  nav {
+    float: right;
+    margin-top: -7em;
+    margin-right: 3em;
+    margin-bottom: 0;
+    width: 65%;
+  }
+
+
 }
 
 
