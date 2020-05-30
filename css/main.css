@@ -218,6 +218,24 @@ footer {
 
 /* Media query for TABLET viewport target - minimum width: 480px */
 
+@media only screen and (min-width: 688px) {
+
+  /* styles specifies horizontal dispay for navigation links */
+
+  nav li {
+    display: block;
+    float: left;
+    width: 18%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: transparent;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   /* Place the timelime to the left */
