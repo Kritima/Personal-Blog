@@ -22,7 +22,7 @@ body {
   }
 
   /* styles for the logo in the header div */
-  
+
   header {
     text-align: center;
   }
@@ -65,6 +65,11 @@ nav li a {
 
 /* styles for the desktop class */
 .desktop {
+  display: none;
+}
+
+/* styles for the tablet class */
+.tablet {
   display: none;
 }
   
