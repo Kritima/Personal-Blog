@@ -312,7 +312,12 @@ footer {
     color: #6600cc;
   }
 
-
+  /* styles for footer */
+  footer {
+    background-color:#ecc1ae;
+    margin-top: -0.2em;
+    padding: 2em;
+  }
 
 }
 
