@@ -253,6 +253,17 @@ footer {
 
 }
 
+/* Media Query for desktop view port */
+@media only screen and (min-width: 999px) {
+
+    /* styles for header */
+    header {
+      text-align: left;
+    }
+    
+}
+
+
 
 @media screen and (max-width: 600px) {
 
