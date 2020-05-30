@@ -1,3 +1,4 @@
+/* stylesheet for personal blog website created by Kritima Kukreja */
 body {
     font-family: Arial;
     background: #f1f1f1;
@@ -7,15 +8,16 @@ body {
     max-width: 100%;
   }
 
-  header {
-    text-align: center;
-  }
-
   #container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
+
+  header {
+    text-align: center;
+  }
+
 
   /* styles for the nav bar containing the links */
 nav {

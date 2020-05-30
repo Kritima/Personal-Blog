@@ -2,6 +2,30 @@ img {
   max-width: 100%;
 }
 
+/* styles for the table element */
+
+table {
+  border: 0.1em solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* styles for the th and tr */
+
+th,
+td {
+  border: 0.1em solid #000000;
+  padding: 1em;
+}
+
+/* styles for the th */
+
+#timeline caption{
+  text-align: center;
+}
+
 #pdf
 {
   text-align: center;
@@ -70,28 +94,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #ecc1ae;;
 }
-
-/* styles for the table element */
-
-table {
-  border: 0.1em solid #000000;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-/* styles for the th and tr */
-
-th,
-td {
-  border: 0.1em solid #000000;
-  padding: 1em;
-}
-
-/* styles for the th */
-
-
 
 .carousel, ul {
   height: 300px;
