@@ -277,6 +277,14 @@ footer {
     padding-right: 0.5%;
   }
 
+    /* styles for the list items in nav */
+    nav li {
+      margin-left: 0;
+      margin-right: 0;
+      padding: 0;
+      width: 20%;
+    }
+
 
 
 }
