@@ -284,3 +284,22 @@ textarea {
 input[type=submit]:hover {
   background-color: #ecc1ae;;
 }
+
+/* Media Query for desktop view port */
+@media only screen and (min-width: 999px) {
+
+.projectsarticle {
+  width: 80%;
+  margin-left: 10.5em;
+}
+
+}
+
+@media screen and (max-width: 600px) {
+
+.projectsarticle {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
