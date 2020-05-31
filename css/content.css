@@ -227,6 +227,14 @@ caption {
    100%{ left: 0;}
  }
 
+ /* styles for the contact class */
+ .contact {
+  background-color: transparent;
+  color: #1d1d1c;
+  text-decoration: underline;
+  padding: 0;
+}
+
  /* styles for input, textarea, select etc */
 
 input,
