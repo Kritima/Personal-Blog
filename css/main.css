@@ -247,7 +247,7 @@ footer a {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 688px) {
 
   /* Place the timelime to the left */
   .timeline::after {

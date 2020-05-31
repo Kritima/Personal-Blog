@@ -190,6 +190,7 @@ caption {
 
 * {box-sizing: border-box;}
 
+
 .carousel, ul {
   height: 300px;
 }
@@ -295,7 +296,7 @@ input[type=submit]:hover {
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 688px) {
 
 .projectsarticle {
   width: 80%;
@@ -303,3 +304,18 @@ input[type=submit]:hover {
   margin-right: auto;
 }
 }
+
+  /* styles for the video class */
+  .video {
+    padding: 0.5em;
+    padding-top: 2em;
+    text-align: center;
+    clear: left;
+  }
+  
+  /* styles video tag */
+  video {
+    border: 0.5em ridge #ffffff;
+    height: auto;
+    max-width: 100%;
+  }
