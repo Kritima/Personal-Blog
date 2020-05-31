@@ -5,6 +5,16 @@
 img.rounded-corners {
   border-radius: 1000px;
 }
+
+/* styles for placing image in center */
+
+.my-image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .ptext
 {
   text-align: center;
