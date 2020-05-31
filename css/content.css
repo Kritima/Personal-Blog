@@ -1,4 +1,14 @@
-
+.about
+{
+  text-align: center;
+}
+img.rounded-corners {
+  border-radius: 1000px;
+}
+.ptext
+{
+  text-align: center;
+}
 /* styles for the table element */
 
 table {
