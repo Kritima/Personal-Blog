@@ -108,7 +108,19 @@ nav li a {
     border-radius: 0 5em 5em 5em;
     padding: 1.5em;
     margin: 1em;
+    font-style: italic;
   }
+
+  /* styles for anchor tags inside main element 
+main a {
+  background-color: #9d9d93;
+  border-radius: 1em;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 0.5em;
+  text-decoration: none;
+} */
 
 /* Footer */
 footer {
