@@ -248,6 +248,11 @@ caption {
    100%{ left: 0;}
  }
 
+ .projectlinks
+ {
+   float: left;
+ }
+
  /* styles for the contact class */
  .contact {
   background-color: transparent;
@@ -294,18 +299,14 @@ input[type=submit]:hover {
   margin-left: 10.5em;
 }
 
-}
+.videodesktop
+  {
+    display: inline-block;
+    width: 100%;
+    margin: -3em auto;
+  }
 
-@media screen and (min-width: 688px) {
-
-.projectsarticle {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-}
-
-  /* styles for the video class */
+   /* styles for the video class */
   .video {
     padding: 0.5em;
     padding-top: 2em;
@@ -319,3 +320,21 @@ input[type=submit]:hover {
     height: auto;
     max-width: 100%;
   }
+
+}
+
+@media screen and (min-width: 688px) {
+
+.projectsarticle {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+
+
+  .videodesktop
+{
+  text-align: center;
+}
