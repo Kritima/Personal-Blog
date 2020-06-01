@@ -1,6 +1,9 @@
+/* styles for about class */
+
 .about
 {
   text-align: center;
+  margin-top: -3em;
 }
 img.rounded-corners {
   border-radius: 1000px;
@@ -15,6 +18,15 @@ img.rounded-corners {
     margin-right: auto;
     width: 50%;
 }
+
+.laptopimg
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2em;
+  }
+
 .ptext
 {
   text-align: center;
@@ -294,6 +306,12 @@ h2{
 /* Media Query for desktop view port */
 @media only screen and (min-width: 999px) {
 
+  .about
+{
+  text-align: center;
+  margin-top: 15em;
+}
+
 .projectsarticle {
   width: 80%;
   margin-left: 10.5em;
@@ -324,6 +342,12 @@ h2{
 }
 
 @media screen and (min-width: 688px) {
+
+  /* styles for about class */
+
+ .about {
+   margin-top: -10em;
+  }
 
    /* styles for the contact class */
  .contact {
