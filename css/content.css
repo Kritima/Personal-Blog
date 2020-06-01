@@ -205,6 +205,12 @@ caption {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
+  /* styles for the video class  */
+.videodesktop {
+  display: none;
+}
+
+
 
 
 .carousel, ul {
@@ -311,6 +317,7 @@ h2{
 }
 
 /* Media Query for desktop view port */
+
 @media only screen and (min-width: 999px) {
 
   .about
@@ -319,6 +326,11 @@ h2{
   margin-top: 55em;
 }
 
+caption
+  {
+    margin-top: 10em
+  }
+
 .projectsarticle {
   width: 80%;
   margin-left: 10.5em;
@@ -326,9 +338,9 @@ h2{
 
 .videodesktop
   {
-    display: inline-block;
     width: 100%;
-    margin: -3em auto;
+    height: 100%;
+    margin: -10em auto;
   }
 
    /* styles for the video class */
@@ -349,7 +361,7 @@ h2{
   /* styles for contact heading */
   .contacthead
   {
-    margin-top: 100em;
+    display: inline-block;
   }
   
 
@@ -384,7 +396,7 @@ h2{
 
   caption
   {
-    margin-top:-7em;
+    margin-top:-10em;
   }
 
 .projectsarticle {
@@ -392,9 +404,19 @@ h2{
   margin-left: auto;
   margin-right: auto;
 }
-}
+.videodesktop
+  {
+    display: inline-block;
+    width: 100%;
+    margin: -3em auto;
+  }
 
-  .videodesktop
-{
-  text-align: center;
+   /* styles for the video class */
+  .video {
+    padding: 0.5em;
+    padding-top: 2em;
+    text-align: center;
+    clear: left;
+  }
+
 }
