@@ -240,6 +240,10 @@ footer a {
     padding: 0.7em;
   }
 
+  footer{
+  background-color: #ecc1ae;
+  }
+
   /* styles for pseudo-classes */
   /* when the link is not visited */
   nav li a:link {
