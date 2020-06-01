@@ -317,7 +317,7 @@ textarea {
 }
 
 input[type=submit]:hover {
-  background-color: #ecc1ae;;
+  background-color: #ecc1ae;
 }
 
 h2{
@@ -441,11 +441,19 @@ caption
     max-width: 100%;
   }
 
+  section {
+    color:#000000;
+    margin-left: 1em;
+    padding-bottom: 5em;
+  }
+
   /* styles for equip class */
   .pro {
     display: block;
     float: left;
     margin-right: 1.5em;
+    height: 20em;
+    width: 38em;
   }
 
   /* styles for unordered list (class items) */
