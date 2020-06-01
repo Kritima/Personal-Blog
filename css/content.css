@@ -269,6 +269,13 @@ caption {
    float: left;
  }
 
+   /* styles for contact heading */
+ .contacthead
+{
+  margin-top: -3em;
+}
+
+
  /* styles for input, textarea, select etc */
 
 input,
@@ -339,6 +346,13 @@ h2{
     max-width: 100%;
   }
 
+  /* styles for contact heading */
+  .contacthead
+  {
+    margin-top: 100em;
+  }
+  
+
 }
 
 @media screen and (min-width: 688px) {
@@ -361,9 +375,11 @@ h2{
   text-align: center;
 }
 
+/* styles for contact heading */
+
 .contacthead
 {
-  margin-top:4em;
+  margin-top: -10em;
 }
 
   caption

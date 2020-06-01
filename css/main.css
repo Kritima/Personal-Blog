@@ -81,6 +81,7 @@ nav li a {
   
 
   /* Create two unequal columns that floats next to each other */
+  
   /* Left column */
   .leftcolumn { 
     float: left;
@@ -91,6 +92,8 @@ nav li a {
   .rightcolumn {
     float: left;
     width: 25%;
+    margin-top: -1.2em;
+    margin-bottom: 0.7em;
     padding-left: 20px;
   }
   
@@ -110,7 +113,7 @@ nav li a {
 
    /* styles for the aside element */
    aside {
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     border-radius: 0 5em 5em 5em;
     padding: 1.5em;
     margin: 1em;
