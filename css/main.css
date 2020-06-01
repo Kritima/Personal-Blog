@@ -27,6 +27,11 @@ body {
     margin-top: -4em;
   }
 
+  #banner1
+  {
+    display: none;
+  }
+
   /* styles for the logo in the header div */
 
   header {
@@ -90,7 +95,7 @@ nav li a {
   
   /* Right column */
   .rightcolumn {
-    float: left;
+    float: right;
     width: 25%;
     margin-top: -1.2em;
     margin-bottom: 0.7em;
@@ -149,6 +154,11 @@ footer a {
     margin-top: -15em;
   }
 
+  #banner1{
+
+    display: none;
+  }
+
   /* styles specifies horizontal dispay for navigation links */
 
   nav li {
@@ -188,6 +198,16 @@ footer a {
     /* styles for header */
     header {
       text-align: left;
+    }
+
+  #banner{
+    display: none;
+
+    }
+
+    #banner1
+    {
+      display: inline;
     }
 
     /* styles for nav */
@@ -241,6 +261,15 @@ footer a {
   nav li a:active {
     color: #6600cc;
   }
+
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    margin-top: -61.4em;
+    margin-bottom: 0.7em;
+    padding-left: 20px;
+  }
+
 
   /* styles for footer */
   footer {

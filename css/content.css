@@ -397,16 +397,17 @@ h2{
   }
 
   /* styles for unordered list (class items) */
-  .items {
+  .itemspro {
     display: block;
     list-style-position: inside;
+    margin-top: 4em;
     /* margin-bottom: 5em; */
   }
 
   /* styles for equipment titles (h1) */
   .title-pro {
     clear: left;
-    padding-top: 0.5em;
+    padding-top: 6em;
   }
 
 
@@ -441,8 +442,7 @@ caption
   }
 
    /* styles for the video class */
-  .video {
-    margin-top: 5em;
+  .videodesktop {
     padding: 0.5em;
     padding-top: 2em;
     text-align: center;
@@ -451,6 +451,7 @@ caption
   
   /* styles video tag */
   video {
+    margin-top: 5em;
     border: 0.5em ridge #ffffff;
     height: auto;
     max-width: 100%;
@@ -472,7 +473,7 @@ caption
   }
 
   /* styles for unordered list (class items) */
-  .items {
+  .itemspro {
     display: block;
     list-style-position: inside;
     /* margin-bottom: 5em; */
