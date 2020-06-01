@@ -160,6 +160,9 @@ caption {
   border-radius: 6px;
 }
 
+.pro{
+  display: none;
+}
 
 #pdf
 {
@@ -358,6 +361,26 @@ caption
     max-width: 100%;
   }
 
+  /* styles for equip class */
+  .pro {
+    display: block;
+    float: left;
+    margin-right: 1.5em;
+  }
+
+  /* styles for unordered list (class items) */
+  .items {
+    display: block;
+    list-style-position: inside;
+    /* margin-bottom: 5em; */
+  }
+
+  /* styles for equipment titles (h1) */
+  .title-pro {
+    clear: left;
+    padding-top: 0.5em;
+  }
+
   /* styles for contact heading */
   .contacthead
   {
@@ -418,5 +441,26 @@ h2{
     text-align: center;
     clear: left;
   }
+
+  /* styles for equip class */
+  .pro {
+    display: block;
+    float: left;
+    margin-right: 1.5em;
+  }
+
+  /* styles for unordered list (class items) */
+  .items {
+    display: block;
+    list-style-position: inside;
+    /* margin-bottom: 5em; */
+  }
+
+  /* styles for equipment titles (h1) */
+  .title-pro {
+    clear: left;
+    padding-top: 0.5em;
+  }
+
 
 }
