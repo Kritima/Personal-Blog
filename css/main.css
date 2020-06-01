@@ -21,6 +21,12 @@ body {
     margin-right: auto;
   }
 
+  /* styles for the id = banner added */
+  #banner
+  {
+    margin-top: -4em;
+  }
+
   /* styles for the logo in the header div */
 
   header {
@@ -111,16 +117,6 @@ nav li a {
     font-style: italic;
   }
 
-  /* styles for anchor tags inside main element 
-main a {
-  background-color: #9d9d93;
-  border-radius: 1em;
-  color: #ffffff;
-  font-weight: bold;
-  margin-top: 20px;
-  padding: 0.5em;
-  text-decoration: none;
-} */
 
 /* Footer */
 footer {
@@ -144,6 +140,12 @@ footer a {
 /* Media query for TABLET viewport target - minimum width: 480px */
 
 @media only screen and (min-width: 688px) {
+
+  /* styles for the id = banner added */
+  #banner
+  {
+    margin-top: -15em;
+  }
 
   /* styles specifies horizontal dispay for navigation links */
 
@@ -245,6 +247,12 @@ footer a {
     bottom: 0;
     padding: 2em;
   }
+
+   /* styles for the id = banner */
+   #banner
+   {
+     margin-top: -45em;
+   }
 
 }
 

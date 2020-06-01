@@ -81,6 +81,8 @@ caption {
   width: 50%;
 }
 
+* {box-sizing: border-box;}
+
 /* The circles on the timeline */
 .container::after {
   content: '';
@@ -191,7 +193,6 @@ caption {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
 
-* {box-sizing: border-box;}
 
 
 .carousel, ul {
@@ -256,14 +257,6 @@ caption {
    float: left;
  }
 
- /* styles for the contact class */
- .contact {
-  background-color: transparent;
-  color: #1d1d1c;
-  text-decoration: underline;
-  padding: 0;
-}
-
  /* styles for input, textarea, select etc */
 
 input,
@@ -292,6 +285,10 @@ textarea {
 
 input[type=submit]:hover {
   background-color: #ecc1ae;;
+}
+
+h2{
+  text-align: center;
 }
 
 /* Media Query for desktop view port */
@@ -327,6 +324,23 @@ input[type=submit]:hover {
 }
 
 @media screen and (min-width: 688px) {
+
+   /* styles for the contact class */
+ .contact {
+  background-color: transparent;
+  color: #1d1d1c;
+  text-decoration: underline;
+  padding: 0;
+}
+
+h2{
+  text-align: center;
+}
+
+.contacthead
+{
+  margin-top:4em;
+}
 
   caption
   {
