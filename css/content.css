@@ -185,32 +185,6 @@ caption {
     border-radius: 50%;
   }
   
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
- 
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-  
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
 
   /* styles for the video class  */
 .videodesktop {
@@ -222,16 +196,11 @@ caption {
   display: none;
 }
 
-
-
-
 .carousel, ul {
   height: 300px;
 }
  .carousel {
    position: absolute;
-   width: 600px;
-   margin:auto;
    overflow: hidden;
    box-shadow: 10px 10px 15 px rgba(0,0,0,0.50);
  }
@@ -245,21 +214,17 @@ caption {
 
  .carousel ul{
    position: absolute;
-   top: -15px;
-   width: 9000px;
    list-style: none;
-   margin-left: -50px;
    transition:left .3s linear;
  }
 
  .carousel-container {
-   margin: 0 auto;
-   padding: 0;
-   width: 600px;
+   width: 500px;
  }
 
  .carousel-container img {
-   width: 100%;
+   width: 20em;
+   height: 10em;
    padding: 0 10px;
  }
  .carousel ul {
@@ -394,20 +359,28 @@ h2{
     display: block;
     float: left;
     margin-right: 1.5em;
-  }
+    margin-bottom: 1.5em;
+      height: 20em;
+      width: 38em;
+    }
 
   /* styles for unordered list (class items) */
   .itemspro {
     display: block;
     list-style-position: inside;
-    margin-top: 4em;
-    /* margin-bottom: 5em; */
+    padding-top:  10em;
+    margin-bottom: -30em; 
   }
 
   /* styles for equipment titles (h1) */
   .title-pro {
     clear: left;
-    padding-top: 6em;
+    padding-top: 3em;
+  }
+
+  .carousel
+  {
+    display: none;
   }
 
 
@@ -422,6 +395,7 @@ h2{
   text-align: center;
   margin-top: -1.2em;
 }
+
 
 caption
   {
@@ -451,7 +425,7 @@ caption
   
   /* styles video tag */
   video {
-    margin-top: 5em;
+    margin-top: 4em;
     border: 0.5em ridge #ffffff;
     height: auto;
     max-width: 100%;
@@ -476,20 +450,26 @@ caption
   .itemspro {
     display: block;
     list-style-position: inside;
-    /* margin-bottom: 5em; */
+     margin-bottom: -2.5em; 
   }
 
   /* styles for equipment titles (h1) */
   .title-pro {
     clear: left;
+    margin-top: 5em;
     padding-top: 0.5em;
+  }
+
+  .carousel
+  {
+    display: none;
   }
 
   /* styles for contact heading */
   .contacthead
   {
     display: inline-block;
-    margin-top: -0.5em;
+    margin-top: -10em;
   }
   
 

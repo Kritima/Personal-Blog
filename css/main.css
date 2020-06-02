@@ -69,6 +69,33 @@ nav li a {
   text-decoration: none;
 }
 
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 /* styles for the mobile class */
 .mobile {
   display: inline;
@@ -89,8 +116,7 @@ nav li a {
 
   /* Left column */
   .leftcolumn { 
-    float: left;
-    width: 75%;
+    width: 100%;
   }
   
   /* Right column */
@@ -157,6 +183,11 @@ footer a {
   #banner1{
 
     display: none;
+  }
+
+  .leftcolumn { 
+    float: left;
+    width: 75%;
   }
 
   /* styles specifies horizontal dispay for navigation links */
@@ -239,6 +270,12 @@ footer a {
     display: inline-block;
     padding: 0.7em;
   }
+
+  .leftcolumn { 
+    float: left;
+    width: 75%;
+  }
+  
 
   footer{
   background-color: #ecc1ae;
